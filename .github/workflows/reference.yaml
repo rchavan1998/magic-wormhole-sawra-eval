@@ -2,11 +2,11 @@
 # name: Tests
 
 # >>> IS TRIGGER
-# on:
-#   push:
-#     branches: [ master ]
-#   pull_request:
-#     branches: [ master ]
+on:
+  push:
+    branches: [ reference ]
+  pull_request:
+    branches: [ reference ]
 
 jobs:
   testing:
